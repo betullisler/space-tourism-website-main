@@ -60,3 +60,43 @@ select {
         scroll-behavior: auto !important;
     }
 }
+
+/* ------------------- */
+/* Utility classes     */
+/* ------------------- */
+
+.flex {
+    display: flex;
+    gap: var(--gap)
+        /* normally 1em is the default but he will explain it later **/
+
+}
+
+.grid {
+    display: grid;
+    gap: var(--gap)
+        /* normally 1em is the default but he will explain it later **/
+
+}
+
+.container {
+    padding-inline: 2em;
+    /* this is a new property, its "logical propert" */
+    max-width: 80rem;
+
+}
+
+/* screen reader only, its a very comman and useful utility, we will use it in several place in this project */
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    /* added line */
+    border: 0;
+}
