@@ -82,7 +82,7 @@ select {
 .container {
     padding-inline: 2em;
     /* this is a new property, its "logical propert" */
-    max-width: 80rem;
+    max-width: 60rem;
 
 }
 
