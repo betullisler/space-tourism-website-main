@@ -100,3 +100,8 @@ select {
     /* added line */
     border: 0;
 }
+
+.box {
+    background: lightblue;
+    padding: 3rem;
+}
