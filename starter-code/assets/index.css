@@ -717,3 +717,15 @@ body {
     }
 
 }
+
+/* technology layout */
+
+
+.grid-container--technology {
+    --flow-space: 2rem;
+    grid-template-areas:
+        'tabs'
+        'title'
+        'image'
+        'content';
+}
